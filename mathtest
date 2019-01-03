@@ -1,0 +1,95 @@
+#Calculator
+print("Hello!")
+name = input("What is your name? ")
+print("How are you," ,name, "?")
+print("Hope you are ok.")
+ready = input("Are you ready to exam?:  ")
+if ready == "Yes":
+	print("Let's start!")
+	print("You have to answer 3 questions.")
+#First question:
+	print("First question: Tom has five apples and Lisa has one apple,")
+	print("Jack has five more apples than Tom and nine more than Lisa.")
+	q1 = input("How many apples has Jack?:  ")
+	if int(q1) == 10:
+		print("Good job!")
+	elif int(q1) == 12:
+		print("Oh.. That answer was false!")
+	else:
+		print("Oh.. That answer was false!")
+#Second question:
+	print("Second question: If hypotenuse of right angle triangle is √313.")
+	print("And second side is √169.")
+	q2 = input("What is value of third side of triangle?:  ")
+	if int(q2) == 14:
+		print("Great!")
+	else:
+		print("Oh.. That answer was wrong!")
+#Third question:
+	print("Third question: Xiaomi makes ten phones a mounth.")
+	q3 = input("How many phones does make Xiaomi a year?:  ")
+	if int(q3) == 120:
+		print("Excellent!")
+	else:
+		print("Oh.. That answer was wrong!")
+#RAW-SCORE:
+	l = []
+	if int(q1) == 10:
+	 l.append (1)
+	if int(q2) == 14:
+	 l.append (1)
+	if int(q3) == 120:
+	 l.append (1)
+#Report:
+	print("This is your RAW-SCORE:",l)
+	print("If there are three (1), you pass exam!")
+	print("We will report your score to your school!")
+	mail = input("Please write you e-mail: ")
+	print("Good bye,",name,"!")
+		
+elif ready == "yes":
+	print("Let's start!")
+	print("You have to answer to 5 questions.")
+#Fist question:
+	print("First question: Tom has five apples and Lisa has one apple,")
+	print("Jack has five more apples than Tom and nine more than Lisa.")
+	q1 = input("How many apples has Jack?:  ")
+	if int(q1) == 10:
+		print("Good job!")
+	elif int(q1) == 12:
+		print("Oh.. That answer was wrong!")
+	else:
+		print("Oh.. That answer was wrong!")
+#Second question:
+	print("Second question: If hypotenuse of right angle triangle is √313.")
+	print("And second side is √169.")
+	q2 = input("What is value of third side of triangle?:  ")
+	if int(q2) == 14:
+		print("Great!")
+	else:
+		print("Oh.. That answer was wrong!")
+#Third question:
+	print("Third question: Xiaomi makes ten phones a mounth.")
+	q3 = input("How many phones does make Xiaomi a year?:  ")
+	if int(q3) == 120:
+		print("Excellent!")
+	else:
+		print("Oh.. That answer was wrong!")
+#RAW-SCORE:
+	l = []
+	if int(q1) == 10:
+	 l.append (1)
+	if int(q2) == 14:
+	 l.append (1)
+	if int(q3) == 120:
+	 l.append (1)
+#Report:
+	print("This is your RAW-SCORE:",l)
+	print("If there are three (1), you pass exam!")
+	print("We will report your score to your school!")
+	mail = input("Please write you e-mail: ")
+	print("Good bye,",name,"!")
+
+
+else:
+	print("Oh... Sorry!,",name,". There are some troubles.")
