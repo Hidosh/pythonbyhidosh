@@ -1,4 +1,4 @@
-#Calculator
+#Math Test
 print("Hello!")
 name = input("What is your name? ")
 print("How are you," ,name, "?")
