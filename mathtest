@@ -41,12 +41,12 @@ if ready == "Yes":
 	if int(q3) == 120:
 	 l.append (1)
 #Report:
-	print("This is your RAW-SCORE:",l)
-	print("If there are three (1), you pass exam!")
+	print("This is your RAW-SCORE:", l.count(1))
+	print("If your RAW-SCORE more than 3, you pass exam!")
 	print("We will report your score to your school!")
 	mail = input("Please write you e-mail: ")
 	print("Good bye,",name,"!")
-		
+
 elif ready == "yes":
 	print("Let's start!")
 	print("You have to answer to 5 questions.")
@@ -84,8 +84,8 @@ elif ready == "yes":
 	if int(q3) == 120:
 	 l.append (1)
 #Report:
-	print("This is your RAW-SCORE:",l)
-	print("If there are three (1), you pass exam!")
+	print("This is your RAW-SCORE:", l.count(1))
+	print("If your RAW-SCORE more than 3, you pass exam!")
 	print("We will report your score to your school!")
 	mail = input("Please write you e-mail: ")
 	print("Good bye,",name,"!")
