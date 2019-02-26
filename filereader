@@ -1,0 +1,16 @@
+print("Hello!")
+print("There are two python codes.")
+print("You can open code of calculator and code of math test!")
+print("If you want to read code of calculator you have to write: c")
+print("Or if you want to read code of math test you have to write: m")
+a = input("So.. What do you want to read?: ")
+if a == "c":
+   f = open ('calculator.py')
+   print(f.read())
+   f.close()
+elif a == "m":
+   f = open ('MathTEST.py')
+   print(f.read())
+   f.close()
+else:
+    print("You wrote something wrong!")
