@@ -1,0 +1,73 @@
+print("Hello!")
+print("I can divide and multiplicate values.")
+print("If you want to divide values write: / ")
+print("If you want to multiplicate values write: * ")
+qes = input("What do you want to do? ")
+if qes == "Division":
+    try:
+        x = int(input("First value: "))
+    except ValueError:
+        print("You wrote not value!")
+        x = 0
+    try:
+        y = int(input("Second value: "))
+    except ValueError:
+        print("You wrote not value!")
+        y = 0
+    try:
+        solv = x / y
+    except ZeroDivisionError:
+        print("You wrote zero!")
+    else:
+        print(x / y)
+elif qes == "division":
+    try:
+        x = int(input("First value: "))
+    except ValueError:
+        print("You wrote not value!")
+        x = 0
+    try:
+        y = int(input("Second value: "))
+    except ValueError:
+        print("You wrote not value!")
+        y = 0
+    try:
+        solv = x / y
+    except ZeroDivisionError:
+        print("You wrote zero!")
+    else:
+        print(x / y)
+elif qes == "/":
+    try:
+        x = int(input("First value: "))
+    except ValueError:
+        print("You wrote not value!")
+        x = 0
+    try:
+        y = int(input("Second value: "))
+    except ValueError:
+        print("You wrote not value!")
+        y = 0
+    try:
+        solv = x / y
+    except ZeroDivisionError:
+        print("You wrote zero!")
+    else:
+            print(x / y)
+elif qes == "Multiplication":
+    x = int(input("First value: "))
+    y = int(input("Second value: "))
+    solv = x*y
+    print (solv)
+elif qes == "multiplication":
+    x = int(input("First value: "))
+    y = int(input("Second value: "))
+    solv = x*y
+    print (solv)
+elif qes == "*":
+    x = int(input("First value: "))
+    y = int(input("Second value: "))
+    solv = x*y
+    print (solv)
+else:
+    print("Oh... There are some troubles!")
